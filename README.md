@@ -1,0 +1,2 @@
+# NUStudentWebsite
+The name of my project is Nu Student Website. This came out from an ideal that I want to build a website for students in Northeastern to share the rent information, the message about events like the new year party and etc. My website is consisted of mainly two parts: the post part where people an post information in different boards( the master of this website adds different boards) and the communication part where people add friends and send private message to there friends and the message will be shown on the screen of their friends immediately.
