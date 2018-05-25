@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- Root Context: defines shared resources visible to all other web components -->
+	
+<bean name="userDao" class="com.my.spring.dao.UserDAO" />
+<bean name="boardDao" class="com.my.spring.dao.BoardDAO"/>
+<bean name="postDao" class="com.my.spring.dao.PostDAO"/>
+<bean name="messageDao" class="com.my.spring.dao.MessageDAO"/>
+<bean name="boardValidator" class="com.my.spring.validator.BoardValidator"/>
+<bean name="userValidator" class="com.my.spring.validator.UserValidator"/>
+<bean name="replyValidator" class="com.my.spring.validator.ReplyValidator"/>
+<bean name="postValidator" class="com.my.spring.validator.PostValidator"/>
+<bean name="messageValidator" class="com.my.spring.validator.MessageValidator"/>
+
+</beans>
